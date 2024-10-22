@@ -2,15 +2,15 @@
 # SPDX-License-Identifier: MPL-2.0
 
 terraform {
-
+  /*
   cloud {
-    organization = "organization-name"
+    organization = "husqvarna"
 
     workspaces {
-      name = "learn-terraform"
+      name = "learning"
     }
   }
-
+*/
   required_providers {
     aws = {
       source  = "hashicorp/aws"
